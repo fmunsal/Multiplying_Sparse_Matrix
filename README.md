@@ -1,6 +1,8 @@
 ## Matrix Multiplication README
-![sparseMatrix](https://github.com/fmunsal/Multiplying_Sparse_Matrix/assets/119849116/134ba1a2-b455-4265-9f01-c1c385ec887f)
+
 ### Overview:
+
+![sparseMatrix-min](https://github.com/fmunsal/Multiplying_Sparse_Matrix/assets/119849116/f487de81-58cb-47d7-b220-f3dfb86b221b)
 
 This C program performs the multiplication of two sparse matrices. Initially, the matrices are defined as `sparseMatrix1` and `sparseMatrix2`. Subsequently, compact arrays of structs, named `compact_matrix_1` and `compact_matrix_2`, are created to represent only the non-zero elements. The multiplication operation is executed using a function called `multiply`, and the result is printed to the screen using the `print` function.
 
@@ -49,6 +51,7 @@ int sparseMatrix2[_L][_M] =
 ### Result:
 
 The result of the multiplication is displayed in a compact matrix format.
+
 
 ### Note:
 
